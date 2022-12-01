@@ -1,0 +1,230 @@
+@media all and (min-width:992px){
+    .mobile-icon-group,
+    .nav-toggle-dots,
+    .nav-toggle-icon,
+    .nav-toggle-crose{
+        display: none !important;
+    }
+    .primary-menu, .header-menu {
+        display: flex !important;
+        margin-left: 20px;
+    }
+}
+@media all and (max-width:991px){
+    .nav-toggle-icon, .nav-toggle-crose {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .nav-toggle-dots,
+    .nav-toggle-icon{
+        display: block;
+    }
+    .navbar {
+        justify-content: center !important;
+    }
+    .logo {
+        margin: auto;
+    }
+    .header-area {
+        padding: 16px 0;
+        border-bottom: 3px solid var(--color-secondery);
+    }
+    .header-menu {
+        position: absolute;
+        top: 51px;
+        left: 0;
+        z-index: 9;
+        width: 100%;
+        display: none;
+    }
+    .primary-menu{
+        flex-direction: column;
+        align-items: flex-start !important;
+        background-color: #242829;
+       padding: 20px;
+    }
+    .primary-menu li {
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+    .nav-item i {
+        margin-right: 20px;
+    }
+    .search-area {
+        top: 39px;
+        right: -43px;
+    }
+    .header-avator{
+        display: none;
+        position: absolute;
+        right: 3px;
+        z-index: 99;
+        background: #242829;
+        box-shadow: 2px 5px 10px rgba(0,0,0,.5);
+        width: 300px;
+        padding: 8px 10px;
+       
+    }
+    .header-avator.active{
+        top: 52px;
+        display: block;
+        transition: .5s;
+    }
+    /* Bannar Area Css */
+    #bg-video {
+        min-height: 75vh;
+    }
+    .bannar-content h1 {
+        font-size: 85px;
+    }
+    .bannar-text-bottom {
+        margin-top: 40px;
+    }
+    .bannar-text-bottom p {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    /* Modal  */
+    .single-episode-card {
+        flex-direction: column;
+    }
+    .sl-episode-left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sl-episode-right {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .epi-feature-image img {
+        width: 100%;
+        height: 230px;
+    }
+    .sl-episode-left h4 {
+        margin-bottom: 30px;
+    }
+    .net-muvie-left {
+        margin-bottom: 27px;
+    }
+    /* Footer Css */
+    .footer-item {
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width:768px){
+    #bg-video {
+        min-height: 60vh;
+    }
+    .bannar-content {
+        margin-top: 160px;
+    }
+    /* Card Hover */
+    .net-card-content .card-body {
+        padding: 24px 18px;
+    }
+    .count-group {
+        margin-bottom: 10px;
+    }
+    .plus-btn {
+        font-size: 16px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .eight-btn {
+        padding: 3px 11px;
+    }
+    .net-card-content .card-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .swiper-arrow-one .swiper-button-next, 
+    .swiper-arrow-one .swiper-button-prev {
+        display: none;
+    }
+    /* Modal Css */
+    .card-time {
+        font-size: 16px;
+    }
+    .sl-head-text {
+        font-size: 18px;
+    }
+    .sl-card-text {
+        font-size: 15px;
+    }
+    .sl-card-head {
+        margin-bottom: 14px;
+    }
+    .muvie-des {
+        font-size: 16px;
+    }
+    .tag-cast li a {
+        font-size: 16px;
+    }
+    .episod-title h3 {
+        font-size: 25px;
+    }
+    .episod-title .form-select {
+        width: 150px;
+        padding: 5px 13px;
+    }
+}
+@media all and (max-width:576px){
+   /* Bannar Area Css */
+   #bg-video {
+	min-height: 48vh;
+  }
+   .bannar-content {
+	margin-top: 90px;
+   }
+   .bannar-content h1 {
+	font-size: 50px;
+    } 
+    .net-btn a {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    .bannar-text-bottom p {
+        font-size: 25px;
+        line-height: 41px;
+        text-align: left;
+    }
+    .title h3 {
+        font-size: 20px;
+    }
+    .single-item img {
+        width: 100%;
+        height: 230px;
+    }
+    .pb-120 {
+        padding-bottom: 60px !important;
+    }
+    .epi-feature-image img {
+        height: auto;
+    }
+    .sl-episode-left {
+        width: 100%;
+    }
+    .pupolar-area {
+        padding-top: 40px !important;
+    }
+    .single-item:hover .overly-card{
+        transform: none;
+    }
+    /* Footer Css */
+    .footer-item {
+        margin-bottom: 0;
+    }
+   
+}
+@media all and (max-width:480px){
+    .timinig-count {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .time-out {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
